@@ -14,3 +14,9 @@ Target 1: Track movement in Etoro investors.
 
 Target 2: Analyze markets.
 * Pull data from yfinance to have stock price moves.
+
+### Get data
+Go to https://www.etoro.com/discover/screener?InternalExchangeId=9
+Open HTML, then find this location <ui-layout _ngcontent-ng-c2907778674="">
+Download a save as a html file.
+Then run the Python script to get tickets.
